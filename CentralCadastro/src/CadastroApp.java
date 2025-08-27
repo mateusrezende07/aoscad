@@ -13,7 +13,7 @@ public class CadastroApp {
             System.out.println("0 - Sair");
             System.out.print("Escolha: ");
             opcao = sc.nextInt();
-            sc.nextLine(); // consumir quebra de linha
+            sc.nextLine();
 
             switch (opcao) {
                 case 1:
@@ -45,3 +45,4 @@ public class CadastroApp {
         sc.close();
     }
 }
+
